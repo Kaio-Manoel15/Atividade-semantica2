@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: rgb(6, 15, 109);
+    margin: 30px;
+    padding: 20px; 
+    border-radius: 30px;
+}
+
+nav ul {
+    display: flex;          
+    justify-content: center; 
+    gap: 30px;              
+    list-style: none;       
+    padding: 0;
+}
+nav a {
+    color: #4fd15a;         
+    text-decoration: none;  
+    font-weight: bold;
+}
+nav a:hover {
+    color: white;           
+}
+
+/* Main dividido em duas colunas */
+main {
+    display: flex;          
+    margin: 30px;
+    gap: 20px;              
+    align-items: flex-start; 
+}
+
+/* Coluna esquerda */
+main section {
+    flex: 2;                
+    background-color: #111;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* Coluna direita */
+main aside {
+    flex: 1;              
+    background-color: rgb(30, 10, 10); 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+article {
+    background-color: #222;
+    margin-top: 20px;      
+    padding: 15px;
+    border-radius: 10px;
+}
+
+figure {
+    text-align: center;     
+    margin: 20px 0;
+}
+
+img {
+    border: 3px solid #4fd15a;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
